@@ -10,14 +10,14 @@ public class Solution {
                 index++;
             }
         }
-         List<Integer> l = new ArrayList<>();
+         List<Integer> ans = new ArrayList<>();
        for (int i = 0; i < nums.length; i++) {
            if(nums[i]!=i+1){
-               l.add(i+1);
+               ans.add(i+1);
            }
            
        }
-return l;
+return ans;
     }
     static void swap(int[] arr,int one , int second) {
         int temp = arr[one];
